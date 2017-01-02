@@ -11,6 +11,12 @@
   "license": "ISC",
   "devDependencies": {
     "file-loader": "^0.9.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"no tests yet, bruh.\""
   }
 }
